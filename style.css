@@ -1,0 +1,140 @@
+.header{
+
+    display:flex;
+    height:100px;
+    width:100%;
+    background-color: rgb(67, 103, 168);
+    color:white;
+  }
+.right{
+  display: flex;
+  position:absolute;
+  left:60%;
+  padding-top: 20px;
+  
+}
+.left{
+  position: absolute;
+  left:10%;
+  top:30px;
+}
+.input2,.input3{
+  padding-left: 10px;
+  
+}
+.input3{
+  padding-top:20px;
+}
+.para{
+  position:relative;
+  bottom:10px;
+}
+.login_btn{
+  background: rgb(55, 81, 151);
+  border-radius: 2px;
+  color:white;
+  border:1px solid black;
+}
+.m_left{
+  display:flex;
+  width:60%;
+  flex-direction: column;
+}
+.l_top{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: veranda;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+.left_font{
+  
+  font-size: 15px;
+  color:gray;
+}
+.l_bottom{
+  font-size: 15px;
+  color:black;
+  font-weight:bold;
+
+}
+.left_bottom{
+ 
+  margin-top: 80px;
+  margin-left: 40%;
+}
+.l_bottom,left_font{
+  margin-bottom: 30px;
+}
+.main{
+  display:flex;
+  background-color: rgb(183, 201, 221);
+}
+.m_right{
+  display:flex;
+  flex-direction: column;
+  
+}
+#para{
+  position: relative;
+  bottom: 20px;
+}
+#email,#password{
+  margin-top:10px;
+}
+#lname{
+  margin-left:10px;
+}
+
+.month,.day,.year{
+
+heigth:200px;
+}
+.birthday_font{
+  font-size:20px;
+  position:relative;
+  top:10px;
+  font-weight: bold;
+  font-family: verdana;
+}
+
+.birthday_input{
+  display:flex;
+}
+.bdaytext{
+margin-left: 5px;
+font-size: 10px;
+color:rgb(30, 40, 182)
+}
+.gender{
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: verdana;
+  font-weight: bold;
+}
+.tnc_text{
+  color:gray;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.highlights{
+  color:rgb(30, 40, 182);
+  font-size: 15px;
+  margin-top: 20px;
+}
+.signup{
+  background-color: green;
+  size: 25px;
+  padding: 10px 15px;
+  width:40%;
+  border:1px solid darkgreen;
+  border-radius:4px;
+  color: white;
+
+}    
+.end_text{
+  color:gray;
+  font-weight: bold;
+  margin-top: 50px;
+}  
+
